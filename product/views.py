@@ -42,6 +42,10 @@ def add_product(request):
             code = "HDL"
         elif kind == "jeans_free":
             code = "JNF"
+        elif kind =="socks_free":
+            code == "SOK"
+        elif kind =="hat_free":
+            code = "HAT"
         else:
             message = "잘못된 상품 코드입니다. 다시 입력해주세요."
             context = {"message": message}
@@ -79,6 +83,10 @@ def add_quantity(request):
             code = "HDL"
         elif kind == "jeans_free":
             code = "JNF"
+        elif kind =="socks_free":
+            code == "SOK"
+        elif kind =="hat_free":
+            code = "HAT"
         else:
             message = "잘못된 상품 코드입니다. 다시 입력해주세요."
             context = {"message": message}
@@ -110,6 +118,10 @@ def remove_quantity(request):
             code = "HDL"
         elif kind == "jeans_free":
             code = "JNF"
+        elif kind =="socks_free":
+            code == "SOK"
+        elif kind =="hat_free":
+            code = "HAT"
         else:
             message = "잘못된 상품 코드입니다. 다시 입력해주세요."
             context = {"message": message}
