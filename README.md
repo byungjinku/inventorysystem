@@ -30,3 +30,7 @@ ex) hood-001, hood-002, hood-003
     - 회원가입 페이지 
     - 재고관리 페이지
     
+    
+ ### ERD
+ ![Copy of 재고관리시스템](https://user-images.githubusercontent.com/66653030/230817293-88641344-f444-4107-a4e6-5d15ec992a10.png)
+
